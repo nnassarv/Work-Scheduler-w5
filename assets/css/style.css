@@ -16,9 +16,14 @@ textarea {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: rgb(19, 14, 14);
   border-radius: 0;
   border-bottom: 10px solid black;
+}
+
+/* Center the time and activity within the row space */
+.activityRow .timeRow {
+  
 }
 
 .description {
@@ -57,15 +62,17 @@ textarea {
   color: white;
 }
 
-.saveBtn {
+/* Do not need this */
+/* .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
-}
+} */
 
-.saveBtn i:hover {
+/* Do not need this */
+/* .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
-}
+} */
