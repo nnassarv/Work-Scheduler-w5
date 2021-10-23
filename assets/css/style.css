@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -19,11 +19,6 @@ textarea {
   color: rgb(19, 14, 14);
   border-radius: 0;
   border-bottom: 10px solid black;
-}
-
-/* Center the time and activity within the row space */
-.activityRow .timeRow {
-  
 }
 
 .description {
