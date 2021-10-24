@@ -25,12 +25,11 @@ if (moment(currentTime).isBefore(timeBlockTime8, "hour")) {
 }
 console.log("Is the current time before timeblock #8? " + before8);
 
-// color past timeblock
+// disable timeblock if time is in the past
 if (!before8) {
-    // $("#activity8").css({"border-color": "red", "color": "red"});
-    // $("#activity8").attr('readonly', 'true');
-    $("#saveButton8").attr("disabled", "button");
+    $("#activity8").css({"border-color": "red"});
     $("#activity8").attr("disabled", "input");
+    $("#saveButton8").attr("disabled", "button");
 }
 
 // [B] SAVE & RENDER Timeblock 8 data
@@ -114,6 +113,13 @@ const renderLastSavedAct9 = function (lastSavedAct9) {
   act9Input.value = lastSavedAct9.value;
 };
 
+// disable timeblock if time is in the past
+if (!before9) {
+    $("#activity9").css({"border-color": "red"});
+    $("#activity9").attr("disabled", "input");
+    $("#saveButton9").attr("disabled", "button");
+}
+
 // get existing data for activity 9 from local storage
 const getDataFromLocalStorage9 = function () {
   // get data from local storage with key name
@@ -176,6 +182,13 @@ if (moment(currentTime).isBefore(timeBlockTime10, "hour")) {
   before10 = false;
 }
 console.log("Is the current time before timeblock #10? " + before10);
+
+// disable timeblock if time is in the past
+if (!before10) {
+    $("#activity10").css({"border-color": "red"});
+    $("#activity10").attr("disabled", "input");
+    $("#saveButton10").attr("disabled", "button");
+}
 
 // [B] SAVE & RENDER Timeblock 10 data
 var act10Input = document.querySelector("#activity10");
@@ -249,6 +262,13 @@ if (moment(currentTime).isBefore(timeBlockTime11, "hour")) {
 }
 console.log("Is the current time before timeblock #11? " + before11);
 
+// disable timeblock if time is in the past
+if (!before11) {
+    $("#activity11").css({"border-color": "red"});
+    $("#activity11").attr("disabled", "input");
+    $("#saveButton11").attr("disabled", "button");
+}
+
 // [B] SAVE & RENDER Timeblock 11 data
 var act11Input = document.querySelector("#activity11");
 var saveButton11 = document.querySelector("#saveButton11");
@@ -320,6 +340,13 @@ if (moment(currentTime).isBefore(timeBlockTime12, "hour")) {
   before12 = false;
 }
 console.log("Is the current time before timeblock #12? " + before12);
+
+// disable timeblock if time is in the past
+if (!before12) {
+    $("#activity12").css({"border-color": "red"});
+    $("#activity12").attr("disabled", "input");
+    $("#saveButton12").attr("disabled", "button");
+}
 
 // [B] SAVE & RENDER Timeblock 12 data
 var act12Input = document.querySelector("#activity12");
@@ -393,6 +420,13 @@ if (moment(currentTime).isBefore(timeBlockTime13, "hour")) {
 }
 console.log("Is the current time before timeblock #13? " + before13);
 
+// disable timeblock if time is in the past
+if (!before13) {
+    $("#activity13").css({"border-color": "red"});
+    $("#activity13").attr("disabled", "input");
+    $("#saveButton13").attr("disabled", "button");
+}
+
 // [B] SAVE & RENDER Timeblock 13 data
 var act13Input = document.querySelector("#activity13");
 var saveButton13 = document.querySelector("#saveButton13");
@@ -464,6 +498,13 @@ if (moment(currentTime).isBefore(timeBlockTime14, "hour")) {
   before14 = false;
 }
 console.log("Is the current time before timeblock #14? " + before14);
+
+// disable timeblock if time is in the past
+if (!before14) {
+    $("#activity14").css({"border-color": "red"});
+    $("#activity14").attr("disabled", "input");
+    $("#saveButton14").attr("disabled", "button");
+}
 
 // [B] SAVE & RENDER Timeblock 14 data
 var act14Input = document.querySelector("#activity14");
@@ -537,6 +578,13 @@ if (moment(currentTime).isBefore(timeBlockTime15, "hour")) {
 }
 console.log("Is the current time before timeblock #15? " + before15);
 
+// disable timeblock if time is in the past
+if (!before15) {
+    $("#activity15").css({"border-color": "red"});
+    $("#activity15").attr("disabled", "input");
+    $("#saveButton15").attr("disabled", "button");
+}
+
 // [B] SAVE & RENDER Timeblock 15 data
 var act15Input = document.querySelector("#activity15");
 var saveButton15 = document.querySelector("#saveButton15");
@@ -608,6 +656,13 @@ if (moment(currentTime).isBefore(timeBlockTime16, "hour")) {
   before16 = false;
 }
 console.log("Is the current time before timeblock #16? " + before16);
+
+// disable timeblock if time is in the past
+if (!before16) {
+    $("#activity16").css({"border-color": "red"});
+    $("#activity16").attr("disabled", "input");
+    $("#saveButton16").attr("disabled", "button");
+}
 
 // [B] SAVE & RENDER Timeblock 16 data
 var act16Input = document.querySelector("#activity16");
@@ -681,6 +736,13 @@ if (moment(currentTime).isBefore(timeBlockTime17, "hour")) {
 }
 console.log("Is the current time before timeblock #17? " + before17);
 
+// disable timeblock if time is in the past
+if (!before17) {
+    $("#activity17").css({"border-color": "red"});
+    $("#activity17").attr("disabled", "input");
+    $("#saveButton17").attr("disabled", "button");
+}
+
 // [B] SAVE & RENDER Timeblock 17 data
 var act17Input = document.querySelector("#activity17");
 var saveButton17 = document.querySelector("#saveButton17");
@@ -753,6 +815,12 @@ if (moment(currentTime).isBefore(timeBlockTime18, "hour")) {
 }
 console.log("Is the current time before timeblock #18? " + before18);
 
+// disable timeblock if time is in the past
+if (!before18) {
+    $("#activity18").css({"border-color": "red"});
+    $("#activity18").attr("disabled", "input");
+    $("#saveButton18").attr("disabled", "button");
+}
 
 // [B] SAVE & RENDER Timeblock 18 data
 var act18Input = document.querySelector("#activity18");
