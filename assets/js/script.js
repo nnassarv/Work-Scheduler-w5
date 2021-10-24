@@ -25,6 +25,14 @@ if (moment(currentTime).isBefore(timeBlockTime8, "hour")) {
 }
 console.log("Is the current time before timeblock #8? " + before8);
 
+// color past timeblock
+if (!before8) {
+    // $("#activity8").css({"border-color": "red", "color": "red"});
+    // $("#activity8").attr('readonly', 'true');
+    $("#saveButton8").attr("disabled", "button");
+    $("#activity8").attr("disabled", "input");
+}
+
 // [B] SAVE & RENDER Timeblock 8 data
 var act8Input = document.querySelector("#activity8");
 var saveButton8 = document.querySelector("#saveButton8");
@@ -745,6 +753,7 @@ if (moment(currentTime).isBefore(timeBlockTime18, "hour")) {
 }
 console.log("Is the current time before timeblock #18? " + before18);
 
+
 // [B] SAVE & RENDER Timeblock 18 data
 var act18Input = document.querySelector("#activity18");
 var saveButton18 = document.querySelector("#saveButton18");
@@ -799,3 +808,4 @@ const handleLoad18 = function () {
 saveButton18.addEventListener("click", save18Text);
 // add event listener for window load to show already existing data
 window.addEventListener("load", handleLoad18);
+
