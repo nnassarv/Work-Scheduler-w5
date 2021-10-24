@@ -876,4 +876,3 @@ const handleLoad18 = function () {
 saveButton18.addEventListener("click", save18Text);
 // add event listener for window load to show already existing data
 window.addEventListener("load", handleLoad18);
-
